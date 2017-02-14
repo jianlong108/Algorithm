@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34187E9D1E529F470062879B /* BubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 34187E9B1E529F470062879B /* BubbleSort.c */; };
 		F41E97B41E51C3CD00E08DFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F41E97B31E51C3CD00E08DFB /* main.m */; };
 		F41E97BC1E51C3F500E08DFB /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = F41E97BA1E51C3F500E08DFB /* QuickSort.c */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34187E9B1E529F470062879B /* BubbleSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
+		34187E9C1E529F470062879B /* BubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
 		F41E97B01E51C3CD00E08DFB /* SortingAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortingAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41E97B31E51C3CD00E08DFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F41E97BA1E51C3F500E08DFB /* QuickSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				F41E97B31E51C3CD00E08DFB /* main.m */,
 				F41E97BA1E51C3F500E08DFB /* QuickSort.c */,
 				F41E97BB1E51C3F500E08DFB /* QuickSort.h */,
+				34187E9B1E529F470062879B /* BubbleSort.c */,
+				34187E9C1E529F470062879B /* BubbleSort.h */,
 			);
 			path = SortingAlgorithm;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34187E9D1E529F470062879B /* BubbleSort.c in Sources */,
 				F41E97B41E51C3CD00E08DFB /* main.m in Sources */,
 				F41E97BC1E51C3F500E08DFB /* QuickSort.c in Sources */,
 			);
@@ -252,6 +258,7 @@
 				F41E97B91E51C3CD00E08DFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
